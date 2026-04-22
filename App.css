@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap');
+
+:root {
+  --bg: #0a0f1e;
+  --card-bg: #161b2c;
+  --accent: #38bdf8;
+  --text: #ffffff;
+  --font-mono: 'DM Mono', monospace;
+  
+  /* Urgency Colors */
+  --u1: #22c55e; --u2: #84cc16; --u3: #eab308; --u4: #f97316; --u5: #ef4444;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-mono);
+}
